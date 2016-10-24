@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -19,10 +19,10 @@
       </div>
       <div class="menu_nav">
         <ul>
-          <li class="active"><a href="index.jsp">È¨</a></li>
-          <li><a href="about.jsp">°³¿ä</a></li>
-          <li><a href="about.html">½ÃÀÛÇÏ±â</a></li>
-          <li><a href="board.jsp">°Ô½ÃÆÇ</a></li>
+          <li class="active"><a href="index.jsp">í™ˆ</a></li>
+          <li><a href="about.jsp">ê°œìš”</a></li>
+          <li><a href="about.html">ì‹œìž‘í•˜ê¸°</a></li>
+          <li><a href="board.jsp">ê²Œì‹œíŒ</a></li>
           <li><a href="contact.html">login</a></li>
         </ul>
       </div>
@@ -34,31 +34,31 @@
     <div class="content_resize">
       <div class="mainbar">
 
-		<p style="font-size: 30px">¿¡³ÊÁö »ç¿ë·®À» ±Øµµ·Î ÁÙ¿©ÁÖ´Â ±Ã±ØÀûÀÎ ¹æ¹ý</p>
-		<div><a href="https://www.homify.co.kr/photo/459820/rear" target="_blank"><img alt="MZO TARR ArchitectsÀÇ ¸ð´ø ÁÖÅÃ" src="https://res.cloudinary.com/homify/a_0,c_fill,h_316,q_70,w_316/v1439022856/p/photo/image/459820/residential_2.jpg"/></a></div>
-		<p>¿©·¯ºÐÀº Æò¼Ò Àü±â¸¦ ¾ó¸¶³ª »ç¿ëÇÏ½Ã³ª¿ä? È¤½Ã ¸Å´Þ ¸Â´Â Àü±â·á ÆøÅº¿¡ Èûµé¾î ÇÏ°í°è½ÃÁø ¾ÊÀ¸¼Ì½À´Ï±î?</p>
-		<p>¿©·¯ºÐÀº ±×µ¿¾È ¿ä±ÝÀ» ÁÙÀÌ±â À§ÇØ ¾î¶²³ë·ÂÀ» ÇÏ¼Ì½À´Ï±î? ¶ÇÇÑ ¿ä±ÝÀ» ÁÙÀÌ´Â ¹æ¹ýÀº ¾î¶² ¹æ¹ýµéÀÌ ÀÖÀ»±î¿ä?</p>
-		<p>ÇöÀç·Î½á °¡Àå È¿À²ÀûÀÎ ¹æ¹ýÀÌÀÚ »ó½ÄÀûÀ¸·Î µå´Â »ý°¢Àº »ç¿ë·®À» ÁÙÀÌ´Â °ÍÀÔ´Ï´Ù.</p>
-		<p>ÇÏÁö¸¸ »ç¿ë·®À» ÁÙÀÌ´Â °ÍÀº ÀÇ¿Ü·Î ±×¸® ½±Áö´Â ¾Ê½À´Ï´Ù. Æ¯È÷³ª °ÇÃàµÈÁö ¿À·¡µÈ ÁýÀÇ °æ¿ì ÀÚÃ¼ ³Ã³­¹æ ±â´ÉÀÌ »ó´çÈ÷ ºÎ½ÇÇÑ »óÅÂ±â ¶§¹®¿¡ ³Ã³­¹æÀ» Áö¼ÓÀûÀ¸·Î ¶¼¿ö¾ßÇÕ´Ï´Ù.</p>
-		<p>Á÷¾÷ Æ¯¼ºÀå Áý¾È¿¡ ÀüÀÚÁ¦Ç°ÀÌ ¸¹Àº °¡Á¤ÀÇ °æ¿ìµµ Àü±â»ç¿ë·®ÀÌ ¸¹À» ¼ö¹Û¿¡ ¾ø½À´Ï´Ù.</p>
-		<p style="font-size: 30px">Ä£È¯°æ½Ã´ë, ÀÌÁ¦ ½º½º·Î Àü±â¸¦ ¸¸µé¾î »ç¿ëÇÑ´Ù</p>
-		<img src="images/ÅÂ¾çÀüÁö.gif" width="50%"/>
-		<p>±×·¸´Ù¸é ¹æ¹ýÀÌ ¾øÀ»±î¿ä?</p>
-		<p>ÁÖ¿ä ¹®Á¦´Â 'Àü±â¿ä±Ý°ú »ç¿ë·®À» ÁÙÀÌ´Â °Í'¿¡ ¸ÂÃß¾îÁ® ÀÖ½À´Ï´Ù.</p>
-		<p>º¸Åë ÀÏ¹ÝÀûÀÎ °¡Á¤ÀÇ °æ¿ì ÇÑÀü µîÀÇ Àü·ÂÈ¸»ç·ÎºÎÅÍ Àü·ÂÀ» °ø±Þ¹Þ¾Æ »ç¿ë·®¿¡ µû¸¥ »ç¿ë·á¸¦ ÁöºÒÇÏ´Â ¹æ½ÄÀ¸·Î ±¸¼ºµÇ¾î ÀÖ½À´Ï´Ù.</p>
-		<p>¹Ù·Î ÀÌ Àü·ÂÈ¸»ç·ÎºÎÅÍ Àü±â¸¦ °ø±Þ¹ÞÁö ¾Ê°í ½º½º·Î Àü±â¸¦ »ý»êÇÏ°í ¼ÒºñÇÏ´Â ¹æ¹ýÀÔ´Ï´Ù.</p>
-		<p>ÃÖ±Ù È­¼®¿¬·áµîÀÇ °úµµÇÑ »ç¿ëÀ¸·Î ÀÎÇØ Áö±¸¿Â³­È­ µî È¯°æ¹®Á¦°¡ ´ëµÎµÊ¿¡ µû¶ó Ä£È¯°æÀûÀÎ ½ÅÀç»ý¿¡³ÊÁö ¹ßÀüÀ¸·ÎÀÇ Æ®·»µå°¡ º¯È­ÇÏ°í ÀÖ½À´Ï´Ù</p>
-		<p>ÀÌ¿¡ µû¶ó ½ÅÀç»ý¿¡³ÊÁö »ê¾÷ÀÌ °¢±¤À» ¹Þ°íÀÖ´Â »óÈ²ÀÔ´Ï´Ù.</p>
-		<p>±¹°¡ÀûÀ¸·Îµµ ÀÌ¸¦ ÁÖµµÇÏ°í ÀÖ°í, °¢Á¾ ´ÜÃ¼¿Í ¿©·Ð µîµî¿¡¼­ Áö¿ø ¹× Àå·ÁÁ¤Ã¥µîÀ» ½ÃÇàÇÏ°í ÀÖ½À´Ï´Ù</p>
-		<p style="font-size: 30px">½º½º·Î Àü±â¸¦ ¸¸µå´Â "¿¡³ÊÁö ¿ÏÀüÀÚ¸³ ÁÖÅÃ"</p>
-		<p>°ü·Ã±â»ç : <a href="http://atomstory.or.kr/p/48629/">¡®¿¡³ÊÁö µ¶¸³¡¯À» ²Þ²Û´Ù</a> </p>
-		<img src="images/ÆÐ½Ãºê¿ø¸®.png" width="50%"/>
-		<p>±× ¿òÁ÷ÀÓÀÇ ÀÏÈ¯À¸·Î, ÀÌ¸¥¹Ù '¿¡³ÊÁö ÀÚ¸³ ÇÏ¿ì½º'°¡ ÃÖ±Ù À¯ÇàÇÏ°í ÀÖ½À´Ï´Ù.</p>
-		<p>Ã³À½ ¼³°è¶§ºÎÅÍ °ÅÁÖÇÒ¶§±îÁö ¾ËÆÄºÎÅÍ ¿À¸Þ°¡±îÁö '¿¡³ÊÁö ÀÚ¸³'À» ¸ñÇ¥·Î °ÇÃàµÈ ÁÖÅÃÀ¸·Î, ±âÁ¸ÀÇ ÁÖÅÃÀ» È°¿ëÇÏ´Â ¹æ¹ýº¸´Ù ´õ¿í È¿À²ÀûÀÌ¶ó ÇÒ¼öÀÖ½À´Ï´Ù.</p>
-		<p>ÁÖµÈ Æ¯Â¡Àº ÁÖÅÃ ±¸Á¶ ÀÚÃ¼¸¦ ³Ã³­¹æÀÌ Å¹¿ùÇÏ°Ô ±¸¼ºÇÏ¿© ¿¡³ÊÁö°¡ ¹ÛÀ¸·Î »õ³ª°¡´Â °ÍÀ» ¹æÁöÇÏ°í ÀÌ¿¡ µû¸¥ Àü·Â¼Òºñ·®À» ÁÙÀÌ´Â °ÍÀÔ´Ï´Ù.</p>
-		<p>ÀÌ·¯ÇÑ Çö»óÀ» Áö¼ÓÀûÀ¸·Î È¿°ú¸¦ º¼¼öÀÖ±â ¶§¹®¿¡ ÈçÈ÷ 'ÆÐ½ÃºêÇÏ¿ì½º'¶ó´Â ¸íÄªÀ¸·Î ºÒ¸®¿ì°í ÀÖ½À´Ï´Ù.</p>
-		<p>°æ¿ì¿¡ µû¶ó Àü·Â »ç¿ë·®À» ÃÖ´ë 95%±îÁö È¹±âÀûÀ¸·Î ÁÙÀÏ¼ö°¡ ÀÖ½À´Ï´Ù.</p>
-		<p>´ëÈù¹Î±¹¿¡¼­´Â 2017³âºÎÅÍ ÆÐ½ÃºêÇÏ¿ì½ºÀÇ ÀÏÁ¤·® ÀÌ»óÀÇ °ÇÃàÀ» ÀÇ¹«È­ÇÒ ¿¹Á¤ÀÌ¶ó°í ÇÕ´Ï´Ù. ÆÐ½ÃºêÇÏ¿ì½º´Â ¹Ì·¡ÀÇ ÁÖ°ÅÈ¯°æÀ» È¹±âÀûÀ¸·Î ¹Ù²Ù¾îÁÙ ¼±±¸ÀÚÀûÀÎ ¿ªÇÒÀ» ÇÒ°ÍÀÔ´Ï´Ù.</p>
+		<p style="font-size: 30px">ì—ë„ˆì§€ ì‚¬ìš©ëŸ‰ì„ ê·¹ë„ë¡œ ì¤„ì—¬ì£¼ëŠ” ê¶ê·¹ì ì¸ ë°©ë²•</p>
+		<div><a href="https://www.homify.co.kr/photo/459820/rear" target="_blank"><img alt="MZO TARR Architectsì˜ ëª¨ë˜ ì£¼íƒ" src="https://res.cloudinary.com/homify/a_0,c_fill,h_316,q_70,w_316/v1439022856/p/photo/image/459820/residential_2.jpg"/></a></div>
+		<p>ì—¬ëŸ¬ë¶„ì€ í‰ì†Œ ì „ê¸°ë¥¼ ì–¼ë§ˆë‚˜ ì‚¬ìš©í•˜ì‹œë‚˜ìš”? í˜¹ì‹œ ë§¤ë‹¬ ë§žëŠ” ì „ê¸°ë£Œ í­íƒ„ì— íž˜ë“¤ì–´ í•˜ê³ ê³„ì‹œì§„ ì•Šìœ¼ì…¨ìŠµë‹ˆê¹Œ?</p>
+		<p>ì—¬ëŸ¬ë¶„ì€ ê·¸ë™ì•ˆ ìš”ê¸ˆì„ ì¤„ì´ê¸° ìœ„í•´ ì–´ë–¤ë…¸ë ¥ì„ í•˜ì…¨ìŠµë‹ˆê¹Œ? ë˜í•œ ìš”ê¸ˆì„ ì¤„ì´ëŠ” ë°©ë²•ì€ ì–´ë–¤ ë°©ë²•ë“¤ì´ ìžˆì„ê¹Œìš”?</p>
+		<p>í˜„ìž¬ë¡œì¨ ê°€ìž¥ íš¨ìœ¨ì ì¸ ë°©ë²•ì´ìž ìƒì‹ì ìœ¼ë¡œ ë“œëŠ” ìƒê°ì€ ì‚¬ìš©ëŸ‰ì„ ì¤„ì´ëŠ” ê²ƒìž…ë‹ˆë‹¤.</p>
+		<p>í•˜ì§€ë§Œ ì‚¬ìš©ëŸ‰ì„ ì¤„ì´ëŠ” ê²ƒì€ ì˜ì™¸ë¡œ ê·¸ë¦¬ ì‰½ì§€ëŠ” ì•ŠìŠµë‹ˆë‹¤. íŠ¹ížˆë‚˜ ê±´ì¶•ëœì§€ ì˜¤ëž˜ëœ ì§‘ì˜ ê²½ìš° ìžì²´ ëƒ‰ë‚œë°© ê¸°ëŠ¥ì´ ìƒë‹¹ížˆ ë¶€ì‹¤í•œ ìƒíƒœê¸° ë•Œë¬¸ì— ëƒ‰ë‚œë°©ì„ ì§€ì†ì ìœ¼ë¡œ ë–¼ì›Œì•¼í•©ë‹ˆë‹¤.</p>
+		<p>ì§ì—… íŠ¹ì„±ìž¥ ì§‘ì•ˆì— ì „ìžì œí’ˆì´ ë§Žì€ ê°€ì •ì˜ ê²½ìš°ë„ ì „ê¸°ì‚¬ìš©ëŸ‰ì´ ë§Žì„ ìˆ˜ë°–ì— ì—†ìŠµë‹ˆë‹¤.</p>
+		<p style="font-size: 30px">ì¹œí™˜ê²½ì‹œëŒ€, ì´ì œ ìŠ¤ìŠ¤ë¡œ ì „ê¸°ë¥¼ ë§Œë“¤ì–´ ì‚¬ìš©í•œë‹¤</p>
+		<img src="images/íƒœì–‘ì „ì§€.gif" width="50%"/>
+		<p>ê·¸ë ‡ë‹¤ë©´ ë°©ë²•ì´ ì—†ì„ê¹Œìš”?</p>
+		<p>ì£¼ìš” ë¬¸ì œëŠ” 'ì „ê¸°ìš”ê¸ˆê³¼ ì‚¬ìš©ëŸ‰ì„ ì¤„ì´ëŠ” ê²ƒ'ì— ë§žì¶”ì–´ì ¸ ìžˆìŠµë‹ˆë‹¤.</p>
+		<p>ë³´í†µ ì¼ë°˜ì ì¸ ê°€ì •ì˜ ê²½ìš° í•œì „ ë“±ì˜ ì „ë ¥íšŒì‚¬ë¡œë¶€í„° ì „ë ¥ì„ ê³µê¸‰ë°›ì•„ ì‚¬ìš©ëŸ‰ì— ë”°ë¥¸ ì‚¬ìš©ë£Œë¥¼ ì§€ë¶ˆí•˜ëŠ” ë°©ì‹ìœ¼ë¡œ êµ¬ì„±ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.</p>
+		<p>ë°”ë¡œ ì´ ì „ë ¥íšŒì‚¬ë¡œë¶€í„° ì „ê¸°ë¥¼ ê³µê¸‰ë°›ì§€ ì•Šê³  ìŠ¤ìŠ¤ë¡œ ì „ê¸°ë¥¼ ìƒì‚°í•˜ê³  ì†Œë¹„í•˜ëŠ” ë°©ë²•ìž…ë‹ˆë‹¤.</p>
+		<p>ìµœê·¼ í™”ì„ì—°ë£Œë“±ì˜ ê³¼ë„í•œ ì‚¬ìš©ìœ¼ë¡œ ì¸í•´ ì§€êµ¬ì˜¨ë‚œí™” ë“± í™˜ê²½ë¬¸ì œê°€ ëŒ€ë‘ë¨ì— ë”°ë¼ ì¹œí™˜ê²½ì ì¸ ì‹ ìž¬ìƒì—ë„ˆì§€ ë°œì „ìœ¼ë¡œì˜ íŠ¸ë Œë“œê°€ ë³€í™”í•˜ê³  ìžˆìŠµë‹ˆë‹¤</p>
+		<p>ì´ì— ë”°ë¼ ì‹ ìž¬ìƒì—ë„ˆì§€ ì‚°ì—…ì´ ê°ê´‘ì„ ë°›ê³ ìžˆëŠ” ìƒí™©ìž…ë‹ˆë‹¤.</p>
+		<p>êµ­ê°€ì ìœ¼ë¡œë„ ì´ë¥¼ ì£¼ë„í•˜ê³  ìžˆê³ , ê°ì¢… ë‹¨ì²´ì™€ ì—¬ë¡  ë“±ë“±ì—ì„œ ì§€ì› ë° ìž¥ë ¤ì •ì±…ë“±ì„ ì‹œí–‰í•˜ê³  ìžˆìŠµë‹ˆë‹¤</p>
+		<p style="font-size: 30px">ìŠ¤ìŠ¤ë¡œ ì „ê¸°ë¥¼ ë§Œë“œëŠ” "ì—ë„ˆì§€ ì™„ì „ìžë¦½ ì£¼íƒ"</p>
+		<p>ê´€ë ¨ê¸°ì‚¬ : <a href="http://atomstory.or.kr/p/48629/">â€˜ì—ë„ˆì§€ ë…ë¦½â€™ì„ ê¿ˆê¾¼ë‹¤</a> </p>
+		<img src="images/íŒ¨ì‹œë¸Œì›ë¦¬.png" width="50%"/>
+		<p>ê·¸ ì›€ì§ìž„ì˜ ì¼í™˜ìœ¼ë¡œ, ì´ë¥¸ë°” 'ì—ë„ˆì§€ ìžë¦½ í•˜ìš°ìŠ¤'ê°€ ìµœê·¼ ìœ í–‰í•˜ê³  ìžˆìŠµë‹ˆë‹¤.</p>
+		<p>ì²˜ìŒ ì„¤ê³„ë•Œë¶€í„° ê±°ì£¼í• ë•Œê¹Œì§€ ì•ŒíŒŒë¶€í„° ì˜¤ë©”ê°€ê¹Œì§€ 'ì—ë„ˆì§€ ìžë¦½'ì„ ëª©í‘œë¡œ ê±´ì¶•ëœ ì£¼íƒìœ¼ë¡œ, ê¸°ì¡´ì˜ ì£¼íƒì„ í™œìš©í•˜ëŠ” ë°©ë²•ë³´ë‹¤ ë”ìš± íš¨ìœ¨ì ì´ë¼ í• ìˆ˜ìžˆìŠµë‹ˆë‹¤.</p>
+		<p>ì£¼ëœ íŠ¹ì§•ì€ ì£¼íƒ êµ¬ì¡° ìžì²´ë¥¼ ëƒ‰ë‚œë°©ì´ íƒì›”í•˜ê²Œ êµ¬ì„±í•˜ì—¬ ì—ë„ˆì§€ê°€ ë°–ìœ¼ë¡œ ìƒˆë‚˜ê°€ëŠ” ê²ƒì„ ë°©ì§€í•˜ê³  ì´ì— ë”°ë¥¸ ì „ë ¥ì†Œë¹„ëŸ‰ì„ ì¤„ì´ëŠ” ê²ƒìž…ë‹ˆë‹¤.</p>
+		<p>ì´ëŸ¬í•œ í˜„ìƒì„ ì§€ì†ì ìœ¼ë¡œ íš¨ê³¼ë¥¼ ë³¼ìˆ˜ìžˆê¸° ë•Œë¬¸ì— í”ížˆ 'íŒ¨ì‹œë¸Œí•˜ìš°ìŠ¤'ë¼ëŠ” ëª…ì¹­ìœ¼ë¡œ ë¶ˆë¦¬ìš°ê³  ìžˆìŠµë‹ˆë‹¤.</p>
+		<p>ê²½ìš°ì— ë”°ë¼ ì „ë ¥ ì‚¬ìš©ëŸ‰ì„ ìµœëŒ€ 95%ê¹Œì§€ íšê¸°ì ìœ¼ë¡œ ì¤„ì¼ìˆ˜ê°€ ìžˆìŠµë‹ˆë‹¤.</p>
+		<p>ëŒ€ížŒë¯¼êµ­ì—ì„œëŠ” 2017ë…„ë¶€í„° íŒ¨ì‹œë¸Œí•˜ìš°ìŠ¤ì˜ ì¼ì •ëŸ‰ ì´ìƒì˜ ê±´ì¶•ì„ ì˜ë¬´í™”í•  ì˜ˆì •ì´ë¼ê³  í•©ë‹ˆë‹¤. íŒ¨ì‹œë¸Œí•˜ìš°ìŠ¤ëŠ” ë¯¸ëž˜ì˜ ì£¼ê±°í™˜ê²½ì„ íšê¸°ì ìœ¼ë¡œ ë°”ê¾¸ì–´ì¤„ ì„ êµ¬ìžì ì¸ ì—­í• ì„ í• ê²ƒìž…ë‹ˆë‹¤.</p>
       </div>
       <div class="sidebar">
         <div class="gadget">
@@ -66,7 +66,7 @@
           <li><a href="http://home.kepco.co.kr/kepco/main.do"><img alt="" src="images/S_05.jpg" width="100%"></a></li>
           <li><a href="http://www.kemco.or.kr/web/kem_home_new/new_main.asp"><img alt="" src="images/tab3.gif" width="100%"></a></li>
           <li><a href="http://www.kier.re.kr/"><img alt="" src="images/KIER(L).jpg" width="100%"></a></li>
-          <li><a href="http://blog.naver.com/energyplanet">ÇÑ±¹¿øÀÚ·Â¹®È­Àç´Ü °ø½Ä ºí·Î±×</a></li>
+          <li><a href="http://blog.naver.com/energyplanet">í•œêµ­ì›ìžë ¥ë¬¸í™”ìž¬ë‹¨ ê³µì‹ ë¸”ë¡œê·¸</a></li>
           </ul>
         </div>
       </div>
