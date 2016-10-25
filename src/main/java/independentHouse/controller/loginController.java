@@ -21,12 +21,18 @@ public class loginController {
 		User data = service.getUser(id);
 		if (data!=null && data.getPass().equals(password) ) {
 			
-			model.addAttribute("user", data.getAddr());
-			return "index";
+			model.addAttribute("user", data.getId());
+			return "../../index";
 		}
 		else{
 		return "redirect:#mymodal";
 		}
+	}
+	@RequestMapping("logout")
+	public String logout(String user,Model model){
+		user = null;
+		model.addAttribute("user",user);
+		return "../../index";
 	}
 	
 }

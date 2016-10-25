@@ -83,7 +83,13 @@
           <li><a href="about">개요</a></li>
           <li><a href="start">시작하기</a></li>
           <li><a href="board">게시판</a></li>
-          <li><a data-toggle="modal" href="#myModal">login</a></li>
+          <c:if test="${user eq null }">
+          <li><a data-toggle="modal" href="#myModal">로그인</a></li>
+          </c:if>
+          <c:if test="${user ne null }">
+          <li>${user }님 환영합니다</li>
+          <li><a href="logout">로그아웃</a></li>         
+          </c:if>
         </ul>
       </div>
       <div class="clr"></div>
@@ -156,8 +162,9 @@
       <form action="login" method="post">
         아이디  &nbsp;&nbsp; <input type="text" name="id"/><br>
         비밀번호 <input type="text" name="password"/><br>
-        <input type="submit" value="로그인"/><a href="signup">회원가입</a>
+        <input type="submit" value="로그인"/>
         </form>
+        <a href="signup">회원가입</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
