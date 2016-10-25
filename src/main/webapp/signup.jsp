@@ -40,7 +40,7 @@
       
       <p style="font-size: 30px">회원가입</p>
       <form action="signup" method="post">
-      <table>
+      <table border="1" width="200%" >
       <tr>
       <td>아이디</td>
       <td><input type="text" name="id"><br></td>

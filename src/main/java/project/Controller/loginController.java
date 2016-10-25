@@ -22,7 +22,7 @@ public class loginController {
 		if (data!=null && data.getPass().equals(password) ) {
 			
 			model.addAttribute("user", data.getAddr());
-			return "../index.jsp";
+			return "index";
 		}
 		else{
 		return "redirect:mymodal";
