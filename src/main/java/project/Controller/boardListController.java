@@ -19,6 +19,6 @@ public class boardListController {
 	@RequestMapping("/board")
 	public String showBoardList(Model model){
 		model.addAttribute("list",service.showBoardList());
-		return "board.jsp";
+		return "board";
 	}
 }
