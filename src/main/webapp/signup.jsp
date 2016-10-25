@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -24,9 +23,9 @@
       <div class="menu_nav">
         <ul>
           <li><a href="index.jsp">홈</a></li>
-          <li><a href="about.jsp">개요</a></li>
+          <li class="active"><a href="about.jsp">개요</a></li>
           <li><a href="about.html">시작하기</a></li>
-          <li class="active"><a href="board">게시판</a></li>
+          <li><a href="board">게시판</a></li>
           <li><a data-toggle="modal" href="#myModal">login</a></li>
         </ul>
       </div>
@@ -37,27 +36,26 @@
   <div class="content">
     <div class="content_resize">
       <div class="mainbar">
-
-		<table>
-		<thead>
-		<tr>
-		<td>번호</td>
-		<td>제목</td>
-		<td>내용</td>
-		<td>작성자</td>
-		</tr>
-		</thead>
-		<tbody>
-		<c:forEach items="${list}" var="list">
-		<tr>
-		<td>${list.no }</td>
-		<td>${list.title }</td>
-		<td>${list.content }</td>
-		<td>${list.writer }</td>
-		</tr>
-		</c:forEach>
-		</tbody>
-		</table>
+      
+      
+      <p style="font-size: 30px">회원가입</p>
+      <form action="signup" method="post">
+      <table>
+      <tr>
+      <td>아이디</td>
+      <td><input type="text" name="id"><br></td>
+      </tr>
+      <tr>
+      <td>비밀번호</td>
+      <td><input type="text" name="password"><br></td>
+      </tr>
+      <tr>
+      <td>주소</td>
+      <td><input type="text" name="address"><br></td>
+      </tr>
+      </table>
+      <input type="submit" value="가입">
+      </form>
 
       </div>
       <div class="sidebar">
@@ -97,6 +95,5 @@
 
   </div>
 </div>
-
 </body>
 </html>

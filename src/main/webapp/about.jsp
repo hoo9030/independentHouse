@@ -6,9 +6,12 @@
 <title>GreenWorld | About</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/arial.js"></script>
 <script type="text/javascript" src="js/cuf_run.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="main">
@@ -19,11 +22,11 @@
       </div>
       <div class="menu_nav">
         <ul>
-          <li class="active"><a href="index.jsp">홈</a></li>
-          <li><a href="about.jsp">개요</a></li>
+          <li><a href="index.jsp">홈</a></li>
+          <li class="active"><a href="about.jsp">개요</a></li>
           <li><a href="about.html">시작하기</a></li>
-          <li><a href="board.jsp">게시판</a></li>
-          <li><a href="contact.html">login</a></li>
+          <li><a href="board">게시판</a></li>
+          <li><a data-toggle="modal" href="#myModal">login</a></li>
         </ul>
       </div>
       <div class="clr"></div>
@@ -74,5 +77,29 @@
     </div>
   </div>
 </div>
-<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="text-align: center;">Login</h4>
+      </div>
+      <div class="modal-body">
+      <form action="login" method="post">
+        아이디  &nbsp;&nbsp; <input type="text" name="id"/><br>
+        비밀번호 <input type="text" name="password"/><br>
+        <input type="submit" value="로그인"/><a href="signup.jsp">회원가입</a>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
 </html>
