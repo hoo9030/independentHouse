@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -24,7 +26,7 @@
         <ul>
           <li><a href="index.jsp">홈</a></li>
           <li><a href="about">개요</a></li>
-          <li><a href="about.html">시작하기</a></li>
+          <li><a href="start">시작하기</a></li>
           <li class="active"><a href="board">게시판</a></li>
           <c:if test="${user eq null }">
           <li><a data-toggle="modal" href="#myModal">로그인</a></li>

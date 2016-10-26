@@ -162,14 +162,9 @@
       <form action="login" method="post">
         아이디  &nbsp;&nbsp; <input type="text" name="id"/><br>
         비밀번호 <input type="text" name="password"/><br>
-<<<<<<< HEAD
-        <input type="submit" value="로그인"/><a href="signup.jsp">회원가입</a>
-        </form>
-=======
         <input type="submit" value="로그인"/>
         </form>
         <a href="signup">회원가입</a>
->>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>

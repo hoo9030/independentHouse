@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -43,7 +45,7 @@
     <div class="content_resize">
       <div class="mainbar">
 
-		<p style="font-size: 30px">에너지 사용량을 극도로 줄여주는 궁극적인 방법</p>
+		<p style="font-size: 30px">전기요금을 어떻게하면 줄일수 있을까요?</p>
 		<div><a href="https://www.homify.co.kr/photo/459820/rear" target="_blank"><img alt="MZO TARR Architects의 모던 주택" src="https://res.cloudinary.com/homify/a_0,c_fill,h_316,q_70,w_316/v1439022856/p/photo/image/459820/residential_2.jpg"/></a></div>
 		<p>여러분은 평소 전기를 얼마나 사용하시나요? 혹시 매달 맞는 전기료 폭탄에 힘들어 하고계시진 않으셨습니까?</p>
 		<p>여러분은 그동안 요금을 줄이기 위해 어떤노력을 하셨습니까? 또한 요금을 줄이는 방법은 어떤 방법들이 있을까요?</p>
@@ -59,15 +61,7 @@
 		<p>최근 화석연료등의 과도한 사용으로 인해 지구온난화 등 환경문제가 대두됨에 따라 친환경적인 신재생에너지 발전으로의 트렌드가 변화하고 있습니다</p>
 		<p>이에 따라 신재생에너지 산업이 각광을 받고있는 상황입니다.</p>
 		<p>국가적으로도 이를 주도하고 있고, 각종 단체와 여론 등등에서 지원 및 장려정책등을 시행하고 있습니다</p>
-		<p style="font-size: 30px">스스로 전기를 만드는 "에너지 완전자립 주택"</p>
-		<p>관련기사 : <a href="http://atomstory.or.kr/p/48629/">‘에너지 독립’을 꿈꾼다</a> </p>
-		<img src="images/패시브원리.png" width="50%"/>
-		<p>그 움직임의 일환으로, 이른바 '에너지 자립 하우스'가 최근 유행하고 있습니다.</p>
-		<p>처음 설계때부터 거주할때까지 알파부터 오메가까지 '에너지 자립'을 목표로 건축된 주택으로, 기존의 주택을 활용하는 방법보다 더욱 효율적이라 할수있습니다.</p>
-		<p>주된 특징은 주택 구조 자체를 냉난방이 탁월하게 구성하여 에너지가 밖으로 새나가는 것을 방지하고 이에 따른 전력소비량을 줄이는 것입니다.</p>
-		<p>이러한 현상을 지속적으로 효과를 볼수있기 때문에 흔히 '패시브하우스'라는 명칭으로 불리우고 있습니다.</p>
-		<p>경우에 따라 전력 사용량을 최대 95%까지 획기적으로 줄일수가 있습니다.</p>
-		<p>대힌민국에서는 2017년부터 패시브하우스의 일정량 이상의 건축을 의무화할 예정이라고 합니다. 패시브하우스는 미래의 주거환경을 획기적으로 바꾸어줄 선구자적인 역할을 할것입니다.</p>
+		<p>여러분들도 이에 편승해서 충분히 이러한 혜택을 보실수있습니다</p>
       </div>
       <div class="sidebar">
         <div class="gadget">
