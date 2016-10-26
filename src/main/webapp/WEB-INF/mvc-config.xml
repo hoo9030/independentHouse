@@ -10,12 +10,23 @@
          <context:component-scan
             base-package="org.springframework.samples.web"/>  -->
 
+<<<<<<< HEAD
+	<context:component-scan base-package="project.*"></context:component-scan>
+
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler/>
+ 	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<!-- 	        Example: a logical view name of 'showMessage' is mapped to '/WEB-INF/jsp/showMessage.jsp'  -->
+	        <property name="prefix" value="/"/>
+=======
 	<context:component-scan base-package="independentHouse.*"></context:component-scan>
     <mvc:annotation-driven />
 	<mvc:default-servlet-handler/>
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	        <!-- Example: a logical view name of 'showMessage' is mapped to '/WEB-INF/jsp/showMessage.jsp' -->
 	        <property name="prefix" value="/WEB-INF/view/"/>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
 	        <property name="suffix" value=".jsp"/>
 	</bean>
 
