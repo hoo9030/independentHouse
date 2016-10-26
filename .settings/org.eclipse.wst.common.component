@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
     <wb-module deploy-name="project-0.0.1-SNAPSHOT">
+=======
+    <wb-module deploy-name="indenpdentHouse-0.0.1-SNAPSHOT">
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<<<<<<< HEAD
         <property name="context-root" value="project"/>
         <property name="java-output-path" value="/project/target/classes"/>
+=======
+        <property name="java-output-path" value="/indenpdentHouse/target/classes"/>
+        <property name="context-root" value="independentHouse"/>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
     </wb-module>
 </project-modules>
