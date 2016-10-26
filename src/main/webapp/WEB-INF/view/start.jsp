@@ -43,7 +43,12 @@
     <div class="content_resize">
       <div class="mainbar">
 
-
+		<p style="font-size: 40px">시작하기에 앞서</p>
+		<p>우선 여러분이 전기를 얼마나 사용하는지를 알아야 합니다. 전기사용량을 조회하는 방법은 한국전력공사 사이버지점에서 확인하실수 있습니다.</p> 
+		<a href="https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/A/CYEAPP004.jsp">사이버지점 바로가기</a>	
+		<br>
+		<p>관련 블로그 : <a href="http://hajunggu.blog.me/220309498282">http://hajunggu.blog.me/220309498282</a></p>
+		전기사용량을 조회하셨다면 다음으로 넘어가서 본격적으로 계획을 시작하세요<a href="next">다음으로</a>	
       </div>
       <div class="sidebar">
         <div class="gadget">

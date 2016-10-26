@@ -19,4 +19,8 @@ public class linkController {
 	public String signup(){
 		return "signup";
 	}
+	@RequestMapping("next")
+	public String next(){
+		return "next";
+	}
 }
