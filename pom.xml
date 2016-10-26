@@ -1,7 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples.service.service</groupId>
+<<<<<<< HEAD
+  <artifactId>project</artifactId>
+=======
   <artifactId>indenpdentHouse</artifactId>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   
@@ -19,7 +23,11 @@
 		
 
 		<!-- Spring -->
+<<<<<<< HEAD
+		<spring-framework.version>3.2.3.RELEASE</spring-framework.version>
+=======
 		<spring-framework.version>4.2.3.RELEASE</spring-framework.version>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
 
 		<!-- Hibernate / JPA -->
 		<hibernate.version>4.2.1.Final</hibernate.version>
@@ -41,7 +49,11 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring-framework.version}</version>
 		</dependency>
+<<<<<<< HEAD
+		<dependency>
+=======
 			<dependency>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring-framework.version}</version>
@@ -64,11 +76,18 @@
 			<version>${jsp.version}</version>
 			<scope>provided</scope>
 		</dependency>
+<<<<<<< HEAD
+		<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <version>1.4.192</version>
+=======
 			<dependency>
     <groupId>com.h2database</groupId>
     <artifactId>h2</artifactId>
     <version>1.4.192</version>
     <scope>runtime</scope>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
 	</dependency>
 		<!-- Spring and Transactions -->
 		<dependency>
@@ -119,6 +138,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+<<<<<<< HEAD
+				<version>3.5.1</version>
+=======
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
 				        <configuration>
           <source>1.8</source>
           <target>1.8</target>

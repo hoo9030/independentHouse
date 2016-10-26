@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+=======
 <!DOCTYPE html>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -5,6 +10,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
 <html>
 <head>
 <title>에너지 독립주택 프로젝트</title>
@@ -80,6 +86,12 @@
       <div class="menu_nav">
         <ul>
           <li class="active"><a href="index.jsp">홈</a></li>
+<<<<<<< HEAD
+          <li><a href="about.jsp">개요</a></li>
+          <li><a href="about.html">시작하기</a></li>
+          <li><a href="board">게시판</a></li>
+          <li><a data-toggle="modal" href="#myModal">login</a></li>
+=======
           <li><a href="about">개요</a></li>
           <li><a href="start">시작하기</a></li>
           <li><a href="board">게시판</a></li>
@@ -90,6 +102,7 @@
           <li>${user }님 환영합니다</li>
           <li><a href="logout">로그아웃</a></li>         
           </c:if>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
         </ul>
       </div>
       <div class="clr"></div>
@@ -162,9 +175,14 @@
       <form action="login" method="post">
         아이디  &nbsp;&nbsp; <input type="text" name="id"/><br>
         비밀번호 <input type="text" name="password"/><br>
+<<<<<<< HEAD
+        <input type="submit" value="로그인"/><a href="signup.jsp">회원가입</a>
+        </form>
+=======
         <input type="submit" value="로그인"/>
         </form>
         <a href="signup">회원가입</a>
+>>>>>>> af06a1d5417a27647df5b3839917b6ae69eae788
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
