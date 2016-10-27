@@ -82,7 +82,6 @@
           <li class="active"><a href="index.jsp">홈</a></li>
           <li><a href="about">개요</a></li>
           <li><a href="start">시작하기</a></li>
-          <li><a href="board">게시판</a></li>
           <c:if test="${user eq null }">
           <li><a data-toggle="modal" href="#myModal">로그인</a></li>
           </c:if>

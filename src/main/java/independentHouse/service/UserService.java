@@ -15,4 +15,9 @@ public class UserService {
 	public User getUser(String userId){
 		return repository.getUser(userId);
 	}
+
+	public void signup(String id, String pass, String addr) {
+		// TODO Auto-generated method stub
+		repository.signup(id, pass, addr);
+	}
 }

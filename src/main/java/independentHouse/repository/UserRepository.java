@@ -24,4 +24,9 @@ public class UserRepository {
 	public User getUser(String userId){
 		return users.get(userId);
 	}
+
+	public void signup(String id, String pass, String addr) {
+		// TODO Auto-generated method stub
+		users.put(id, new User(id, pass, addr));
+	}
 }
