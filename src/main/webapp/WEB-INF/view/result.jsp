@@ -73,8 +73,10 @@
       </c:if>
       <c:if test="${reduction <= target }">
       <p>목표치인 ${target }kWh에는 만족하지 못하였고, 이를 적용하여 전기요금을 계산해보면 ${resultFee }원으로,</p>
-      <p>총 ${currentFee - resultFee}원을 절약하실수 있습니다.
+      <p>총 ${currentFee - resultFee}원을 절약하실수 있습니다.</p>
       </c:if>
+      
+      <p>각각 수치들의 경우 계산상의 오차로 인하여 조금씩 차이가 날 수 있습니다.</p>
       
       <p style="font-size: 20px">만족하십니까? 목표치에 만족하지 못하셨다면 다른 제품으로도 여러번 시도해 보셔서 비교해보시기 바랍니다. 선택하는건 여러분의 몫입니다.</p> 
       <a href="next">계속하기</a>

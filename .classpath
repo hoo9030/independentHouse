@@ -28,5 +28,14 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/httpclient-4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/httpclient-cache-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/httpcore-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/jdom-2.0.6/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/jdom-2.0.6/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/jdom-2.0.6/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/jdom-2.0.6/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/305/Downloads/jdom-2.0.6/jdom-2.0.6-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
